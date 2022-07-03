@@ -28,13 +28,6 @@ body {
     margin: 33px;
 }
 
-p, ol, ul, td {
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    margin: 33px;
-}
-
 h1 {
     display: block;
     font-size: 2em;
@@ -51,19 +44,16 @@ table {
     box-sizing: border-box;
     text-indent: initial;
     border-spacing: 2px;
-    border-color: gray;
 }
 
 thead {
     display: table-header-group;
     vertical-align: middle;
-    border-color: inherit;
 }
 
 tr {
     display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
+    margin: 0;
 }
 
 th {
